@@ -1,0 +1,116 @@
+h1::first-letter {
+color: #00796B ;
+font-size: 3em;
+}
+
+h1:hover::first-letter {
+    color: #4FC3F7
+    ;
+}
+
+p {
+    font-weight: 700;
+}
+
+p:nth-of-type(2)::before {
+    padding-left: 5px;    
+    content: url(check.png) ;
+    }
+
+p:nth-of-type(2)::after {
+    padding-left: 5px;    
+    content: url(gym.png);
+}
+
+p:nth-of-type(2) {
+    text-decoration: line-through;
+}
+p:nth-of-type(3)::before {
+    padding-left: 5px;    
+    content: url(check.png) ;
+    }
+
+
+p:nth-of-type(3)::after {
+    padding-left: 5px;    
+    content: url(bill.png) ;
+    }
+
+p:nth-of-type(3) {
+        text-decoration: line-through;
+    }
+
+
+p:nth-of-type(3)::before {
+    padding-left: 5px;    
+    content: url(doing.png) ;
+    }
+p:nth-of-type(3)::before {
+    padding-left: 5px;    
+    content: url(doing.png) ;
+    }
+
+ p:nth-of-type(4)::before {
+    padding-left: 5px;    
+    content: url(doing.png) ;
+    }   
+
+p:nth-of-type(4)::after {
+    padding-left: 5px;    
+    content: url(doing.png) ;
+    }    
+
+p:nth-of-type(4) {
+   
+    background-color: #4FC3F7;
+    
+}
+
+p:nth-of-type(5)::before {
+    padding-left: 5px;    
+    content: url(doing.png) ;
+    }   
+
+p:nth-of-type(5)::after {
+    padding-left: 5px;    
+    content: url(eat.png) ;
+    }    
+
+p:nth-of-type(5) {
+    
+    background-color: #4FC3F7;
+    
+}
+
+
+p:nth-of-type(6)::before {
+    padding-left: 5px;    
+    content: url(no.png) ;
+}   
+
+p:nth-of-type(6)::after {
+    padding-left: 5px;    
+    content: url(book.png) ;
+    }    
+
+    p:nth-of-type(6) {
+    
+      text-decoration: underline;
+        
+    }
+
+    p:nth-of-type(7)::before {
+        padding-left: 5px;    
+        content: url(no.png) ;
+    } 
+
+    p:nth-of-type(7)::after {
+        padding-left: 5px;    
+        content: url(organize.png) ;
+        }    
+
+        p:nth-of-type(7) {
+    
+            text-decoration: underline;
+              
+          }
